@@ -24,7 +24,6 @@ class ProductManager {
         code,
         stock
       }
-      //si el ++ lo pongo al principio va a pasar que primero se aumenta el id y despues lo asigna, en cambio si lo pongo al final pasaría al reves.
 
       this.products.push(newProduct);
     }
@@ -46,7 +45,7 @@ class ProductManager {
 
 //Testing:
 
-//1)Se creara una instancia de la clase "ProductManager"
+//1)Crear una instancia de la clase "ProductManager"
 
 const manager = new ProductManager();
 
@@ -58,9 +57,10 @@ manager.addProduct("producto prueba", "este es un producto prueba", 200, "sin im
 
 //El objeto debe agregarse satisfactoriamente con un id generado automáticamente sin repetirse.
 
-//4)Se llamará el metodo "getProducts" nuevamente, esta vez debe aparecer el producto recien agregado.
 manager.addProduct("pelotas", "de voley", 1500, "sin imagen", "mks110", 15);
 manager.addProduct("remeras", "de entrenamiento", 2000, "sin imagen", "miz629",30);
+
+//4)Se llamará el metodo "getProducts" nuevamente, esta vez debe aparecer el producto recien agregado.
 
 console.log(manager.getProducts());
 
