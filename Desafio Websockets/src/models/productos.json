@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Producto 1",
+    "description": "Descripción del product 1",
+    "price": "120",
+    "img": "Sin Imagen",
+    "code": "abc123",
+    "stock": "150",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 1
+  },
+  {
+    "title": "Producto 2",
+    "description": "Descripción del product 2",
+    "price": "2500",
+    "img": "Sin Imagen",
+    "code": "abc124",
+    "stock": "150",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 2
+  }
+]
